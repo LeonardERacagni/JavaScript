@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Movies">
+        <meta name="keywords" content="Moviestack, Movies, Stack">
+        <meta name="autor" content="Leonard Racagni">
+        <link rel="stylesheet" href="./css/style.css">
+        <script src="https://cdn.tailwindcss.com"></script>
+        <title>Home</title>
+        <link rel="icon" href="./assets/images/Moviestack_favicon.png" type="image/png">
+    </head>
+        
+<body class="bg-black text-white">
+    <header class="flex flex-nowrap items-center justify-between h-full max-h-24 border-solid border border-[#6D38E0]">
+            <div class="flex flex-nowrap items-center space-x-[-95px]">
+                <img class="w-full h-full max-w-24" src="./assets/images/Moviestack_isotipo.png" alt="logo">
+                <img class="w-full h-full max-w-96" src="./assets/images/Moviestack_logotipo2.png" alt="logNombre">
+            </div>
+            <nav class="flex flex-nowrap m-8">
+                <a class="m-1 p-2 border-solid border border-[#6D38E0] font-bold hover:bg-[#D2CCFF] hover:text-black hover:font-bold" href="#">HOME</a>
+                <a class="m-1 p-2 border-solid border border-black hover:bg-[#D2CCFF] hover:text-black hover:font-bold" href="./paginas/movies.html">MOVIES</a>
+                <a class="m-1 p-2 border-solid border border-black hover:bg-[#D2CCFF] hover:text-black hover:font-bold" href="./paginas/favs.html">FAVS</a>
+            </nav>
+    </header>
+    <main>
+        <section>
+            <div>
+                <video src="./videos/estrenos2024-1080p.mp4" autoplay playsinline loop></video>
+            </div>
+            <div class="flex flex-col items-center my-10 bg-[#6D38E0] text-white">
+                <h2 class="m-4 text-3xl">ESTRENOS 2024</h2>
+                <ul class="flex flex-col items-center m-4">
+                    <li class="text-xl">Gladiator II</li>
+                    <li class="text-xl">Mufasa</li>
+                </ul>
+            </div>
+        </section>
+        <section>
+            <p class=" flex flex-nowrap justify-center justify-center m-10">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam ad veniam, dicta voluptates facilis, voluptatibus impedit officiis assumenda officia iusto illo, porro reiciendis ratione ex totam quia facere nesciunt amet.</p>
+            <div class="flex flex-nowrap justify-center justify-around">
+                <a href="./paginas/movies.html">
+                    <div class="h-96 w-96 flex justify-center items-center bg-[#6D38E0] hover:bg-[#D2CCFF] hover:text-black hover:font-bold">
+                        <h2 class="text-6xl">MOVIES</h2>
+                    </div>
+                </a>
+                <a href="./paginas/favs.html">
+                    <div class="h-96 w-96 flex justify-center items-center bg-[#6D38E0] hover:bg-[#D2CCFF] hover:text-black hover:font-bold">
+                        <h2 class="text-6xl">FAVS</h2>
+                    </div>
+                </a>
+            </div>
+        </section>
+    </main>
+    <footer class="flex flex-nowrap justify-center mt-10 p-4 border-solid border border-[#6D38E0]">
+        <h2 class="text-xl">Leonard E Racagni - MindHub - Cohort N54</h2>
+    </footer>
+    <script src="./js/data.js"></script>
+    <script src="./js/index.js"></script>
+</body>
+</html>
