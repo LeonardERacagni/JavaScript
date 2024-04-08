@@ -13,7 +13,7 @@ let crearCadaCarta = function (objetoEntero) {
 for (const iterator of peliculas) {
     let divCard = document.createElement("div");
     divCard.className = "h-96 w-96 flex flex-col m-3 bg-[#6D38E0] border-solid hover:border-2 border-[#D2CCFF]" //clases de estilos de tailwind
-    divCard.innerHTML += crearCadaCarta(iterator);
+    divCard.innerHTML = crearCadaCarta(iterator);
     fragmento.appendChild(divCard);
 }
 
