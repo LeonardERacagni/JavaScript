@@ -43,17 +43,16 @@
                         </div>
                     </div>
                     <div id="contenedorDeBuscador" class="flex flex-wrap w-1/2 ">
-                        <div class="flex flex-wrap justify-center mr-40 grow">
-                            <legend>BUSCADOR</legend>
-                            <div id="buscador">
+                        <div class="flex flex-col justify-center mr-40 grow">
+                            <!-- <legend class="flex justify-center">BUSCADOR</legend> -->
+                            <input class="text-center text-black" type="text" name="search" id="search" placeholder="Buscar">
+                        </div>
+                        <div id="buscador">
 
-                            </div>
                         </div>
                     </div>
                 </fieldset>
             </form>
-        </section>
-        <section>
             <div id="container" class="flex flex-wrap justify-center">
             </div>
         </section>
@@ -62,7 +61,8 @@
         <h2 class="text-xl">Leonard E Racagni - MindHub - Cohort N54</h2>
     </footer>
     <script src="../js/data.js"></script>
-    <script src="../js/movies.js"></script>
-    <script src="../js/functions.js"></script>
+    <script type="module" src="../js/movies.js"></script>
+    <script type="module" src="./details.html"></script>
+    <!-- <script type="module" src="../js/movies2.js"></script> -->
 </body>
 </html>
